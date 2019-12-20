@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+     <head>
+		 <link rel="stylesheet" href="bootstrap.css">
+		 <link rel="stylesheet" href="style.css">
+		 <title>Di Mario's</title>  
+
+<script type="text/javascript">
+  function showDate() {
+    var d = new Date();
+    var curr_date = d.getDate();
+    var curr_month = d.getMonth() + 1; //months are zero based
+    var curr_year = d.getFullYear();
+    document.write(curr_date + "-" + curr_month + "-" + curr_year);
+  }
+</script>
+<script type="text/javascript">
+
+var images = new Array();
+
+function preloadImages(){
+
+    for (i=0; i < preloadImages.arguments.length; i++){
+
+         images[i] = new Image();
+
+        images[i].src = preloadImages.arguments[i];
+
+    }
+
+}
+
+preloadImages("Picture1.png", "heartpizza.jpg", "artsypizza.jpg", "woodpizza.jpg", "olivepizza.jpg", "doughpizza.jpg", "marblebackground.jpg", "bluemarble.jpg", "bluemarble.jpg", "offers.png", "marblefooter.jpg",
+"redwood.jpg", "woodfiredpizza.jpg", "pizzaworker.jpg", "greywood.jpg", "darkwood.jpg", "menubackground.png", "menubackground.jpg", "gallerybackground.jpg", "bluewood.jpg", "woodfooter.jpg",
+);
+
+</script> 
+<script type="text/javascript">
+function f1() {
+  if(document.all) { return false; }
+}
+function f2(e) {
+  if(document.layers || (document.getElementById &! document.all)) {
+    if(e.which==2 || e.which==3) { return false; }
+  }
+}
+if(document.layers) {
+  document.captureEvents(Event.MOUSEDOWN);
+  document.onmousedown = f1;
+}
+else {
+  document.onmouseup = f2;
+  document.oncontextmenu = f1;
+}
+document.oncontextmenu = new function("return false");
+</script>		 
+	 </head>
+    <body>	
+
+    <div class="div4">
+	<script type="text/javascript">showDate();</script>
+	<nav class="navbar navbar-expand-lg" >
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  	<div class="image1"><img src="Picture1.png"> </div>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="link" href="contact.html">Contact</a>
+      </li>
+	  <li class="nav-item">
+        <a class="link" href="menu.html">Menu</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="link" href="about.html">
+          About
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+
+  <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                    <div class="container">
+                        <div class="nav-collapse collapse">
+                            <ul class="nav pull-right">
+                                <li class="active"><a href="/">Home</a></li>
+                                <li><a href="about">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+</nav>
+<h1> Welcome to Di Marios!</h1>
+</div>
+
+
+<div class="gallery">
+  <a target="_blank">
+    <img src="pizzatable.jpg" width="350" height="350">
+  </a>
+  <div class="desc"></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank">
+    <img src="doughmaking.jpg" alt="Forest" width="350" height="350">
+  </a>
+  <div class="desc"></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank">
+    <img src="pizzafood.jpg" alt="Northern Lights" width="350" height="350">
+  </a>
+  <div class="desc"></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank">
+    <img src="table.jpg" alt="Mountains" width="350" height="350">
+  </a>
+  <div class="desc"></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank">
+    <img src="chief.jpg" width="350" height="350">
+  </a>
+  <div class="desc"></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank">
+    <img src="sign.jpg" alt="Forest" width="350" height="350">
+  </a>
+  <div class="desc"></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank">
+    <img src="fresh.jpg" alt="Northern Lights" width="350" height="350">
+  </a>
+  <div class="desc"></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank">
+    <img src="sign2.jpg" alt="Mountains" width="350" height="350">
+  </a>
+  <div class="desc"></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank">
+    <img src="dark.jpg" width="350" height="350">
+  </a>
+  <div class="desc"></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank">
+    <img src="oven.jpg" alt="Forest" width="350" height="350">
+  </a>
+  <div class="desc"></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank">
+    <img src="meal.jpg" alt="Northern Lights" width="350" height="350">
+  </a>
+  <div class="desc"></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank">
+    <img src="bread.jpg" alt="Mountains" width="350" height="350">
+  </a>
+  <div class="desc"></div>
+</div>
+
+<div class="container1"> 
+<h1 class="Z">About us: </h1>
+<p class="Z">- Our facilities Off-street parking, Wheelchair Accessability, Full licence for wine and beer, Takeaway and delivery, Gluten free pasta and pizza,
+ Gluten free beers, Parties catered for, Baby Changing Area, High Chairs, Free WiFi. </p>
+ <p class="Z">- All our pasta, pizza dough and sauces are freshly home made here. If you have special dietary requirements you can still enjoy those Italian classics with our Gluten free pasta and pizzas. </p>
+ <p class="Z">- Di Marios Italian Restaurant provides a relaxed family friendly environment in which to enjoy authentic Italian cooking. </p>
+ <p class="Z">- Whether you are celebrating, a family get-together, communion, confirmation, a treat night out or a romantic dinner for two we would be delighted to welcome you to Da Mario. </p>
+ <p class="Z">- Our opening hours Monday to Saturday; 3pm to 10:30pm and Sunday; 4pm to 10pm </p>
+</div>
+
+<div class="container">
+    <section style="height:80px;"></section>
+	<div class="row" style="text-align:center;">
+	</div>
+    <!----------- Footer ------------>
+    <footer class="footer-bsz">
+        <div class="row">
+        	<div class="col-md-3 footer-brand animated fadeInLeft">
+                <p> We open our first restaurant on January 1, 2020. Georges Street Arcade, South Great George's Street, Dublin. Di Marios provides a friendly and convenient location to enjoy a family event, a work gathering or just a relaxed night out.
+                  If you are driving we have ample off street parking at the rear of the restaurant.</p>
+                <p>2019 BS3 UI Kit, All rights reserved</p>
+            </div>
+        	<div class="col-md-4 footer-nav animated fadeInUp">
+            	<h4 class="white">Menu </h4>
+            	<div class="col-md-6">
+                    <ul class="pages">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contacts</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About us</a></li>
+                    </ul>
+                </div>
+            	<div class="col-md-6">
+                    <ul class="list">
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        	<div class="col-md-2 footer-social animated fadeInDown">
+            	<h4 class="white">Follow Us</h4>
+            	<ul>
+                	<li><a href="contact.html">Facebook</a></li>
+                	<li><a href="contact.html">Twitter</a></li>
+                	<li><a href="contact.html">Instagram</a></li>
+                </ul>
+            </div>
+        	<div class="col-md-3 footer-ns animated fadeInRight">
+            	<h4 class="white">Newsletter</h4>
+                <p>Subscribe to our newsletter for updates on new restaurants and upcoming deals or offers in the future!</p>
+                <p>
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Subscribe....">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
+                      </span>
+                    </div><!-- /input-group -->
+                 </p>
+            </div>
+        </div>
+    </footer>
+
+</div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      </body>	
+</html>

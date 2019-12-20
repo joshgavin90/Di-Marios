@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+     <head>
+		 <link rel="stylesheet" href="bootstrap.css">
+		 <link rel="stylesheet" href="style.css">
+		 <title>Di Mario's</title>
+
+	<script type="text/javascript">
+  function showDate() {
+    var d = new Date();
+    var curr_date = d.getDate();
+    var curr_month = d.getMonth() + 1; //months are zero based
+    var curr_year = d.getFullYear();
+    document.write(curr_date + "-" + curr_month + "-" + curr_year);
+  }
+</script>
+<script type="text/javascript">
+
+var images = new Array();
+
+function preloadImages(){
+
+    for (i=0; i < preloadImages.arguments.length; i++){
+
+         images[i] = new Image();
+
+        images[i].src = preloadImages.arguments[i];
+
+    }
+
+}
+
+preloadImages("Picture1.png", "heartpizza.jpg", "artsypizza.jpg", "woodpizza.jpg", "olivepizza.jpg", "doughpizza.jpg", "marblebackground.jpg", "bluemarble.jpg", "bluemarble.jpg", "offers.png", "marblefooter.jpg",
+"redwood.jpg", "woodfiredpizza.jpg", "pizzaworker.jpg", "greywood.jpg", "darkwood.jpg", "menubackground.png", "menubackground.jpg", "gallerybackground.jpg", "bluewood.jpg", "woodfooter.jpg",
+);
+
+</script> 
+<script type="text/javascript">
+function f1() {
+  if(document.all) { return false; }
+}
+function f2(e) {
+  if(document.layers || (document.getElementById &! document.all)) {
+    if(e.which==2 || e.which==3) { return false; }
+  }
+}
+if(document.layers) {
+  document.captureEvents(Event.MOUSEDOWN);
+  document.onmousedown = f1;
+}
+else {
+  document.onmouseup = f2;
+  document.oncontextmenu = f1;
+}
+document.oncontextmenu = new function("return false");
+</script>	 
+	</head>
+    <body>	
+
+    <div class="div3">
+	<script type="text/javascript">showDate();</script>
+	<nav class="navbar navbar-expand-lg" >
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  	<div class="image1"><img src="Picture1.png"> </div>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="link" href="contact.html">Contact</a>
+      </li>
+	  <li class="nav-item">
+        <a class="link" href="menu.html">Menu</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="link" href="about.html">
+          About
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+
+  <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                    <div class="container">
+                        <div class="nav-collapse collapse">
+                            <ul class="nav pull-right">
+                                <li class="active"><a href="/">Home</a></li>
+                                <li><a href="about">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+</nav>
+<h1> Welcome to Di Marios!</h1>
+</div>
+
+  
+ <div class="divA2">
+ <h1 class="black"> Menu: </h1>
+ <table>
+ <h6 class="black">Pizzas:</h6>
+  <tr>
+    <td><span>9' inch pizza</span></td>
+    <td><span>&euro;9.50</span></td>
+  </tr>
+  <tr>
+    <td><span>12' inch pizza </span></td>
+    <td><span>&euro;12.50</span></td>
+  </tr>
+  <tr>
+    <td><span>14' inch pizza</span></td>
+    <td><span>&euro;15.50</span></td>
+  </tr>
+  <tr>
+    <td><span>2 free toppings on each pizza</span></td>
+    <td><span></span></td>
+  </tr>
+    <tr>
+    <td><span>Extra toppings</span></td>
+    <td><span>&euro;2.00</span></td>
+  </tr>
+  </table>
+  <table>
+    <h6 class="black">Pasta:</h6>
+  <tr>
+    <td><span>Lasagne</span></td>
+    <td><span>&euro;11.50</span></td>
+  </tr>
+  <tr>
+    <td><span>Seafood risotto</span></td>
+    <td><span>&euro;12.50</span></td>
+  </tr>
+  <tr>
+    <td><span>Chicken arrabiata</span></td>
+    <td><span>&euro;11.50</span></td>
+  </tr>
+    <tr>
+    <td><span>Spaghetti bolognese </span></td>
+    <td><span>&euro;10.50</span></td>
+  </tr>
+</table>
+<table>
+  <h6 class="black">Sides:</h6>
+  <tr>
+    <td><span>Fries</span></td>
+    <td><span>&euro;3.50</span></td>
+  </tr>
+  <tr>
+    <td><span>Sweet potato fries</span></td>
+    <td><span>&euro;3.50</span></td>
+  </tr>
+  <tr>
+    <td><span>Curly fries</span></td>
+    <td><span>&euro;3.50</span></td>
+  </tr>
+    <tr>
+    <td><span>Garlic bread</span></td>
+    <td><span>&euro;4.00</span></td>
+  </tr>
+  <tr>
+    <td><span>Nachos</span></td>
+    <td><span>&euro;4.00</span></td>
+  </tr>
+  <tr>
+    <td><span>Mozzarella dippers</span></td>
+    <td><span>&euro;4.00</span></td>
+  </tr>
+</table>
+<table>
+  <h6 class="black">Drinks:</h6>
+  <tr>
+    <td><span>Soft drinks</span></td>
+    <td><span>&euro;2.50</span></td>
+  </tr>
+  <tr>
+    <td><span>Glass of wine</span></td>
+    <td><span>&euro;4.50</span></td>
+  </tr>
+  <tr>
+    <td><span>Pint of beer / cider</span></td>
+    <td><span>&euro;5.50</span></td>
+  </tr>
+    <tr>
+    <td><span>Bottle of wine</span></td>
+    <td><span>&euro;24.00</span></td>
+  </tr>
+  <tr>
+
+</table>
+  </div>
+  
+<div class="container">
+    <section style="height:80px;"></section>
+	<div class="row" style="text-align:center;">
+	</div>
+    <!----------- Footer ------------>
+    <footer class="footer-bsb">
+        <div class="row">
+        	<div class="col-md-3 footer-brand animated fadeInLeft">
+                <p> We open our first restaurant on January 1, 2020. Georges Street Arcade, South Great George's Street, Dublin. Di Marios provides a friendly and convenient location to enjoy a family event, a work gathering or just a relaxed night out.
+                     If you are driving we have ample off street parking at the rear of the restaurant.</p>
+                <p>2019 BS3 UI Kit, All rights reserved</p>
+            </div>
+        	<div class="col-md-4 footer-nav animated fadeInUp">
+            	<h4 class="white">Menu </h4>
+            	<div class="col-md-6">
+                    <ul class="pages">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contacts</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About us</a></li>
+                    </ul>
+                </div>
+            	<div class="col-md-6">
+                    <ul class="list">
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        	<div class="col-md-2 footer-social animated fadeInDown">
+            	<h4 class="white">Follow Us</h4>
+            	<ul>
+                	<li><a href="contact.html">Facebook</a></li>
+                	<li><a href="contact.html">Twitter</a></li>
+                	<li><a href="contact.html">Instagram</a></li>
+                </ul>
+            </div>
+        	<div class="col-md-3 footer-ns animated fadeInRight">
+            	<h4 class="white">Newsletter</h4>
+                <p>Subscribe to our newsletter for updates on new restaurants and upcoming deals or offers in the future!</p>
+                <p>
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Subscribe....">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
+                      </span>
+                    </div><!-- /input-group -->
+                 </p>
+            </div>
+        </div>
+    </footer>
+
+</div>  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      </body>	
+</html>

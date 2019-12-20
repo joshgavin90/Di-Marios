@@ -1,0 +1,738 @@
+
+a.link {
+	font-size: 55px;	
+	color: white;	
+	padding: 25px;
+    text-decoration: underline;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	
+}
+
+.navbar-inner {
+    background-color:transparent;
+}
+
+.div1 {
+	height: 100%;
+	width: 95%;
+	text-align: center;
+    background-image: url('heartpizza.jpg');
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 2.5%;
+	border: solid black 2px;
+}
+
+.image1 {
+	position: relative;
+	float: left;
+}
+
+.navbar .brand { 
+    max-height: 40px;
+    max-width: 30%; 
+    overflow: visible;
+    margin: 10px; 
+}
+
+body {
+	background-color: darkred;
+
+}
+
+.div2 {
+	height: 100%;
+	width: 95%;
+	text-align: center;
+    background-image: url('artsypizza.jpg');
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 2.5%;
+	border: solid black 2px;
+}
+
+.div3 {
+	height: 100%;
+	width: 95%;
+	text-align: center;
+    background-image: url('woodpizza.jpg');
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 2.5%;
+	border: solid black 2px;
+}
+
+.div4 {
+	height: 100%;
+	width: 95%;
+	text-align: center;
+    background-image: url('olivepizza.jpg');
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 2.5%;
+	border: solid black 2px;
+}
+
+
+
+.divC {
+	height: 800px;
+	width: 47%;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	margin-left: 2.5%;
+    background-image: url('doughpizza.jpg');
+    background-repeat: no-repeat;	
+	border: solid black 2px;
+}
+
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	margin-right: 25px;
+	
+}
+
+.divD {
+	height: 100%;
+	width: 95%;
+	text-align: center;
+    background-image: url('marblebackground.jpg');
+	background-repeat: no-repeat;
+	float: left;
+	margin-top: 20px;
+	margin-left: 2.5%;
+	padding: 20px;
+	border: solid black 2px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	color: lightcoral;
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	padding-right: 15px;
+}
+
+p.coral {
+	color: lightcoral;
+	font-size: 30px;
+	font-family: "Times New Roman", Times, serif;	
+	font-weight: bold;
+}
+
+.divoffers {
+	height: 100%;
+	width: 95%;
+	text-align: center;
+    background-image: url('bluemarble.jpg'); 
+	background-repeat: no-repeat;
+	clear: both;
+	float: left;
+	margin-left: 2.5%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: solid black 2px;
+}
+
+.divF {
+	height: 800px;
+	width: 47%;
+	text-align: center;		
+	float: left;
+	margin-left: 1%;
+	margin-top: 20px;
+	background-image: url('offers.png'); 
+	margin-bottom: 20px;
+	border: solid black 2px;
+}
+
+h3 {
+	font-family: "Times New Roman", Times, serif;
+	color: royalblue;
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+h4 {
+	font-family: "Times New Roman", Times, serif;
+	color: royalblue;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+p.blue {
+	color: royalblue;
+	font-size: 30px;
+	font-family: "Times New Roman", Times, serif;	
+	font-weight: bold;
+}
+
+h5 {
+	font-family: "Times New Roman", Times, serif;
+	color: royalblue;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+h6 {
+	font-family: "Times New Roman", Times, serif;
+	color: royalblue;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+.footer-bs {
+    background-image: url('marblefooter.jpg');
+	background-repeat: no-repeat;
+	padding: 40px 40px;
+	color: rgba(255,255,255,1.00);
+	margin-bottom: 20px;
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 6px;
+	border: solid black 2px;
+	float: left;
+	width: 100%;
+}
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h5 { margin:0px 0px 10px;
+} 
+.footer-bs .footer-brand p { font-size:17px; color: white; font-weight: bold; font-family: "Times New Roman", Times, serif; margin-top: 50px; }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { font-size: 17px; color:white; font-weight:bold; text-transform:uppercase; font-family: "Times New Roman", Times, serif; text-decoration: underline;}
+.footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bs .footer-nav h4.white {
+	font-size: 17px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+	color: white;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { font-size:17px; color: white; font-weight: bold; font-family: "Times New Roman", Times, serif; text-decoration: underline;}
+.footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4.white {
+	font-size: 17px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: white;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { font-size:17px; color: white; font-weight: bold; font-family: "Times New Roman", Times, serif; text-decoration: underline;}
+.footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+
+.footer-bs .footer-ns h4.white {
+	font-size: 17px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+	color: white;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+.footer-bs .footer-ns p { font-size:17px; color: white; font-weight: bold; font-family: "Times New Roman", Times, serif;}
+
+@media (min-width: 768px) {
+	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+}
+
+
+
+.divG {
+	height: 100%;
+	width: 95%;
+	text-align: center;
+    background-image: url('redwood.jpg');
+	float: left;
+	margin-top: 20px;
+	margin-left: 2.5%;
+	padding: 10px;
+	border: solid black 2px;
+}
+
+.divH {
+	height: 700px;
+	width: 47%;
+	text-align: center;
+    background-image: url('woodfiredpizza.jpg');
+	float: left;
+	margin-top: 20px;
+	margin-left: 2.5%;
+	padding: 10px;
+	border: solid black 2px;
+}
+
+.divI {
+	height: 700px;
+	width: 47%;
+	text-align: center;
+    background-image: url('pizzaworker.jpg'); 	
+	float: left;
+	margin-left: 1%;
+	margin-top: 20px;
+	padding: 10px;
+	border: solid black 2px;
+}
+
+.divJ {
+	height: 100%;
+	width: 95%;
+	text-align: center;		
+	float: left;
+	margin-left: 2.5%;
+	margin-top: 20px;
+	background-image: url('greywood.jpg'); 
+	margin-bottom: 20px;
+	border: solid black 2px;
+}
+
+h1.W {
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-weight: bold;
+	margin-right: 25px;
+	
+}
+
+.footer-bsa {
+    background-image: url('darkwood.jpg');
+    background-repeat: no-repeat;
+	padding: 40px 40px;
+	color: rgba(255,255,255,1.00);
+	margin-bottom: 20px;
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 6px;
+	border: solid black 2px;
+	float: left;
+	width: 100%;
+}
+.footer-bsa .footer-brand, .footer-bsa .footer-nav, .footer-bsa .footer-social, .footer-bsa .footer-ns { padding:10px 25px; }
+.footer-bsa .footer-nav, .footer-bsa .footer-social, .footer-bsa .footer-ns { border-color: transparent; }
+.footer-bsa .footer-brand h5 { margin:0px 0px 10px;
+} 
+.footer-bsa .footer-brand p { font-size:17px; color: white; font-weight: bold; font-family: "Times New Roman", Times, serif; margin-top: 50px; }
+
+.footer-bsa .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bsa .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bsa .footer-nav ul.pages a { font-size: 17px; color:white; font-weight:bold; text-transform:uppercase; font-family: "Times New Roman", Times, serif; text-decoration: underline;}
+.footer-bsa .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bsa .footer-nav h4.white {
+	font-size: 17px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+	color: white;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.footer-bsa .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bsa .footer-nav ul.list li { padding:5px 0px;}
+.footer-bsa .footer-nav ul.list a { font-size:17px; color: white; font-weight: bold; font-family: "Times New Roman", Times, serif; text-decoration: underline;}
+.footer-bsa .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+
+.footer-bsa .footer-social ul { list-style:none; padding:0px; }
+.footer-bsa .footer-social h4.white {
+	font-size: 17px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: white;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+.footer-bsa .footer-social li { padding:5px 4px;}
+.footer-bsa .footer-social a { font-size:17px; color: white; font-weight: bold; font-family: "Times New Roman", Times, serif; text-decoration: underline; }
+.footer-bsa .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+
+.footer-bsa .footer-ns h4.white {
+	font-size: 17px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+	color: white;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+.footer-bsa .footer-ns p { font-size:17px; color: white; font-weight: bold; font-family: "Times New Roman", Times, serif; }
+
+@media (min-width: 768px) {
+	.footer-bsa .footer-nav, .footer-bsa .footer-social, .footer-bsa .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+}
+
+p.W {
+	color: white;
+	font-size: 29px;
+	font-family: "Times New Roman", Times, serif;	
+	font-weight: bold;
+}
+
+
+
+.divA2 {
+	height: 100%;
+	width: 95%;
+	text-align: center;
+    background-image: url('menubackground.png');
+	float: left;
+	margin-top: 20px;
+	margin-left: 2.5%;
+	padding: 140px;
+    background-repeat: no-repeat;	
+	
+}
+
+	body {
+	font-family: Helvetica, Arial, sans-serif;
+	}
+
+	table {
+	width: 95%;
+	margin:100px auto;
+	table-layout:fixed;
+	border-collapse: collapse;
+	height: 100%;
+	}
+
+	td {
+	padding:1em 0 0 0;
+	vertical-align:bottom;
+	background-image:radial-gradient(black 1px, white 0px);
+	background-size: 8px 8px;
+	background-repeat:repeat-x;
+	background-position: left bottom;
+	}
+	
+	td span{
+   	background-color:#fff;
+	}
+	
+	td:first-child {
+	text-align: left;
+	font-weight: 700;
+	}
+	
+	td:first-child span{
+	padding-right:.25em;
+	}
+
+  	td:last-child {
+	text-align:right;
+	width:3em;
+  	}
+  	
+  	td:last-child span{
+	padding-left:.25em;
+	}
+	
+	span {
+		font-size: 20px;
+		font-weight: bold;
+		
+	}
+
+h1.black {
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	text-align: center;
+	font-size: 70px;
+	font-weight: bold;
+	
+}
+
+h6.black {
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	margin-top: 30px;
+    float: left;
+	margin-left: 2%;	
+}
+
+.footer-bsb {
+    background-image: url('menubackground.jpg');
+	background-repeat: no-repeat;
+	padding: 40px 40px;
+	color: rgba(255,255,255,1.00);
+	margin-bottom: 20px;
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 6px;
+	border: solid black 2px;
+}
+.footer-bsb .footer-brand, .footer-bsb .footer-nav, .footer-bsb .footer-social, .footer-bsb .footer-ns { padding:10px 25px; }
+.footer-bsb .footer-nav, .footer-bsb .footer-social, .footer-bsb .footer-ns { border-color: transparent; }
+.footer-bsb .footer-brand h5 { margin:0px 0px 10px;
+} 
+.footer-bsb .footer-brand p { font-size:17px; color: white; font-weight: bold; font-family: "Times New Roman", Times, serif; margin-top: 50px; }
+
+.footer-bsb .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bsb .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bsb .footer-nav ul.pages a { font-size: 19px; color:white; font-weight:bold; text-transform:uppercase; font-family: "Times New Roman", Times, serif; text-decoration: underline; }
+.footer-bsb .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bsb .footer-nav h4.white {
+	font-size: 19px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+	color: white;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.footer-bsb .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bsb .footer-nav ul.list li { padding:5px 0px;}
+.footer-bsb .footer-nav ul.list a { font-size:19px; color: white; font-weight: bold; font-family: "Times New Roman", Times, serif; text-decoration: underline;}
+.footer-bsb .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+
+.footer-bsb .footer-social ul { list-style:none; padding:0px; }
+.footer-bsb .footer-social h4.white {
+	font-size: 19px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: white;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+.footer-bsb .footer-social li { padding:5px 4px;}
+.footer-bsb .footer-social a { font-size:19px; color: white; font-weight: bold; font-family: "Times New Roman", Times, serif; text-decoration: underline;}
+.footer-bsb .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+
+.footer-bsb .footer-ns h4.white {
+	font-size: 19px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+	color: white;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+.footer-bsb .footer-ns p { font-size:19px; color: white; font-weight: bold; font-family: "Times New Roman", Times, serif; }
+
+@media (min-width: 768px) {
+	.footer-bsb .footer-nav, .footer-bsb .footer-social, .footer-bsb .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+}
+
+
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 2px solid black;
+  float: left;
+  padding: 15px;
+  width: 21.7%;
+  height: 21%;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+  background-image:url('gallerybackground.jpg');
+  
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.container1 {
+	height: 100%;
+	width: 95%;
+	text-align: center;
+    background-image: url('bluewood.jpg');
+	float: left;
+	margin-top: 20px;
+	margin-left: 2.5%;
+	padding: 30px;
+    background-repeat: no-repeat;	
+	border: solid black 2px;
+	clear: both;
+}
+
+h1.Z {
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	text-align: center;
+	font-size: 90px;
+	font-weight: bold;
+	
+}
+
+p.Z {
+	color: white;
+	font-size: 33px;
+	font-family: "Times New Roman", Times, serif;	
+	font-weight: bold;
+}
+
+.footer-bsz {
+    background-image: url('woodfooter.jpg');
+	background-repeat: no-repeat;
+	padding: 40px 40px;
+	color: rgba(255,255,255,1.00);
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 6px;
+	border: solid black 2px;
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+}
+.footer-bsz .footer-brand, .footer-bsz .footer-nav, .footer-bsz .footer-social, .footer-bsz .footer-ns { padding:10px 25px; }
+.footer-bsz .footer-nav, .footer-bsz .footer-social, .footer-bsz .footer-ns { border-color: transparent; }
+.footer-bsz .footer-brand h5 { margin:0px 0px 10px;
+} 
+.footer-bsz .footer-brand p { font-size:17px; color: white; font-weight: bold; font-family: "Times New Roman", Times, serif; margin-top: 50px; }
+
+.footer-bsz .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bsz .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bsz .footer-nav ul.pages a { font-size: 19px; color:white; font-weight:bold; text-transform:uppercase; font-family: "Times New Roman", Times, serif; text-decoration: underline; }
+.footer-bsz .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bsz .footer-nav h4.white {
+	font-size: 19px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+	color: white;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.footer-bsz .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bsz .footer-nav ul.list li { padding:5px 0px;}
+.footer-bsz .footer-nav ul.list a { font-size:19px; color: white; font-weight: bold; font-family: "Times New Roman", Times, serif; text-decoration: underline;}
+.footer-bsz .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+
+.footer-bsz .footer-social ul { list-style:none; padding:0px; }
+.footer-bsz .footer-social h4.white {
+	font-size: 19px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: white;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+.footer-bsz .footer-social li { padding:5px 4px;}
+.footer-bsz .footer-social a { font-size:19px; color: white; font-weight: bold; font-family: "Times New Roman", Times, serif; text-decoration: underline;}
+.footer-bsz .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+
+.footer-bsz .footer-ns h4.white {
+	font-size: 19px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+	color: white;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+.footer-bsz .footer-ns p { font-size:19px; color: white; font-weight: bold; font-family: "Times New Roman", Times, serif; }
+
+@media (min-width: 768px) {
+	.footer-bsz .footer-nav, .footer-bsz .footer-social, .footer-bsz .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+}
+
+div.div1{ 
+ background: url(heartpizza.jpg) no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+div.div2{ 
+ background: url(artsypizza.jpg) no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+div.div3{ 
+ background: url(woodpizza.jpg) no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+div.div4 { 
+ background: url(olivepizza.jpg) no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
